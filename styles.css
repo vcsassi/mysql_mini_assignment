@@ -1,0 +1,36 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+body {
+    background-color: #ccc;
+}
+.vehicles {
+    border-collapse: collapse;
+}
+.data-row td, .header-row th {
+    padding:12px;
+}
+.data-row.even {
+    background-color: #f1f1f1;
+}
+.data-row.odd {
+    background-color: #c1c1c1;
+}
+/* css only approach */
+/*.data-row:nth-child(odd){
+    background-color: #f1f1f1;
+}
+.data-row:nth-child(even){
+    background-color: red;
+}*/
+.table-row td {
+    border: none 0;
+
+}
+.header-row th {
+    border: none 0;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    font-size: 18px;
+}
