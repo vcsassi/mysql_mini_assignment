@@ -1,5 +1,5 @@
 <?php
-require("../../db_creds.inc.php");
+require('dvconnect.inc.php');
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
