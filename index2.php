@@ -100,7 +100,9 @@ $result_makers = $conn->query($sql_makers);
             <td>Year</td>
             <td>Fuel</td>
             <td>Model</td>
+            <td>Maker</td>
             <td>Delete</td>
+            <td>Update</td>
           </tr>
 
 
